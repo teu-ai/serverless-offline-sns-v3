@@ -1,6 +1,6 @@
 {
-  "name": "serverless-offline-sns",
-  "version": "0.76.0",
+  "name": "serverless-offline-sns-v3",
+  "version": "0.80.1",
   "description": "Serverless plugin to run a local SNS server and call lambdas with events notifications.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mj1618/serverless-offline-sns.git"
+    "url": "git+https://github.com/teu-ai/serverless-offline-sns-v3"
   },
   "keywords": [
     "serverless-plugin",
@@ -28,10 +28,15 @@
   },
   "author": "Matthew James <matthew.stephen.james@gmail.com>",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Franco Sanllehi <francosanllehi@gmail.com>"
+    }
+  ],
   "bugs": {
-    "url": "https://github.com/mj1618/serverless-offline-sns/issues"
+    "url": "https://github.com/teu-ai/serverless-offline-sns-v3/issues"
   },
-  "homepage": "https://github.com/mj1618/serverless-offline-sns#readme",
+  "homepage": "https://github.com/teu-ai/serverless-offline-sns-v3#readme",
   "dependencies": {
     "aws-sdk": "^2.943.0",
     "body-parser": "^1.19.0",
@@ -39,7 +44,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.21",
     "node-fetch": "^2.6.1",
-    "serverless": "^2.51.2",
+    "serverless": "^3.24.1",
     "shelljs": "^0.8.4",
     "uuid": "^8.3.2",
     "xml": "^1.0.1"
